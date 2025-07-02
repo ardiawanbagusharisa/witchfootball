@@ -1,0 +1,165 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using System.Linq; // IMPORTANT: Ensure this is present for .Select()
+
+public class TMPFXVertexZoom : MonoBehaviour
+{
+    public float minScale = 1f;
+    public float maxScale = 1.1f;
+    private TMP_Text _TextComponent;
+    private bool _isTextChanged;
+
+    void Awake()
+    {
+        _TextComponent = GetComponent<TMP_Text>();
+    }
+    void OnEnable()
+    {
+        // Subscribe to event fired when text object has been regenerated. 
+        TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+        StartCoroutine(AnimateVertexColors());
+    }
+    void OnDisable()
+    {
+        TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+    }
+    void Start()
+    {
+        StartCoroutine(AnimateVertexColors());
+    }
+    void ON_TEXT_CHANGED(Object obj)
+    {
+        if (obj == _TextComponent)
+        {
+            _isTextChanged = true;
+        }
+    }
+    // Animate Vertex colors of TMP text
+    IEnumerator AnimateVertexColors()
+    {
+        // Force an update of the text object since it would only be updated at the end of the frame. 
+        // Ie., before this code is executed on the first frame. 
+        // Alternatively, we could yield and wait until the end of the frame when the text object will be generated. 
+        _TextComponent.ForceMeshUpdate();
+        TMP_TextInfo textInfo = _TextComponent.textInfo;
+        Matrix4x4 matrix;
+        TMP_MeshInfo[] cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+
+        // Allocations for sorting off the modified scales 
+        List<float> modifiedCharScale = new List<float>();
+        List<int> scaleSortingOrder = new List<int>();
+        _isTextChanged = true;
+
+        while (true)
+        {
+            // Allocate new vertices
+            if (_isTextChanged)
+            {
+                // Get updated vertex data
+                cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+                _isTextChanged = false;
+            }
+            int characterCount = textInfo.characterCount;
+
+            // If no characters then just yield and wait for some text to be added. 
+            if (characterCount == 0)
+            {
+                yield return new WaitForSeconds(0.25f);
+                continue;
+            }
+            // Clear list of character scales
+            modifiedCharScale.Clear();
+            scaleSortingOrder.Clear();
+
+            for (int i = 0; i < characterCount; i++)
+            {
+                TMP_CharacterInfo charInfo = textInfo.characterInfo[i];
+                // Skip character tat are not visible and thus have no geometry to manipulate. 
+                if (!charInfo.isVisible)
+                {
+                    continue;
+                }
+
+                // Get the index of the material used by the current character. 
+                int materialIndex = textInfo.characterInfo[i].materialReferenceIndex;
+                // Get the index of the first vertex used by this text element. 
+                int vertexIndex = textInfo.characterInfo[i].vertexIndex;
+                // Get the cached vertices of the mesh used by this text element (character or sprite).
+                Vector3[] sourceVertices = cachedMeshInfoVertexData[materialIndex].vertices;
+
+                // Determine the center point of each character at the baseline. 
+                //Vector2 charMidBaseline = new Vector2((sourceVertices[vertexIndex + 0].x + sourceVertices[vertexIndex + 2].x) / 2, charInfo.baseline);
+                // Determine the center point of each character
+                Vector2 charMidBaseline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2] / 2);
+
+                // Translate all 4 vertices of each quad to aligned with middlle of the character / baseline.
+                // Matrix TRS is applied at the origin for each character. 
+                Vector3 offset = charMidBaseline;
+                Vector3[] destinationVertices = textInfo.meshInfo[materialIndex].vertices;
+                destinationVertices[vertexIndex + 0] = sourceVertices[vertexIndex + 0] - offset;
+                destinationVertices[vertexIndex + 1] = sourceVertices[vertexIndex + 1] - offset;
+                destinationVertices[vertexIndex + 2] = sourceVertices[vertexIndex + 2] - offset;
+                destinationVertices[vertexIndex + 3] = sourceVertices[vertexIndex + 3] - offset;
+
+                // Determine the random scale change for each character. 
+                float randomScale = Random.Range(minScale, maxScale);
+                // Add modified scale and index.
+                modifiedCharScale.Add(randomScale);
+                scaleSortingOrder.Add(modifiedCharScale.Count - 1);
+
+                // Setup the matrix for the scale change. 
+                matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+                destinationVertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 0]);
+                destinationVertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 1]);
+                destinationVertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 2]);
+                destinationVertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 3]);
+
+                destinationVertices[vertexIndex + 0] += offset;
+                destinationVertices[vertexIndex + 1] += offset;
+                destinationVertices[vertexIndex + 2] += offset;
+                destinationVertices[vertexIndex + 3] += offset;
+
+                // *** CORRECTED FIX FOR LINES 128-129 ***
+                // Restore source UVs which have been modified by the sort
+                // Both cachedMeshInfoVertexData.uvs0 and textInfo.meshInfo.uvs0 are Vector4[] now.
+                //Vector4[] sourceUVs0_V4 = cachedMeshInfoVertexData[materialIndex].uvs0;
+                //Vector4[] destinationUVs0_V4 = textInfo.meshInfo[materialIndex].uvs0;
+
+                //destinationUVs0_V4[vertexIndex + 0] = sourceUVs0_V4[vertexIndex + 0];
+                //destinationUVs0_V4[vertexIndex + 1] = sourceUVs0_V4[vertexIndex + 1];
+                //destinationUVs0_V4[vertexIndex + 2] = sourceUVs0_V4[vertexIndex + 2];
+                //destinationUVs0_V4[vertexIndex + 3] = sourceUVs0_V4[vertexIndex + 3];
+
+                // Restore source vertex colors
+                Color32[] sourceColors32 = cachedMeshInfoVertexData[materialIndex].colors32;
+                Color32[] destinationColors32 = textInfo.meshInfo[materialIndex].colors32;
+
+                destinationColors32[vertexIndex + 0] = sourceColors32[vertexIndex + 0];
+                destinationColors32[vertexIndex + 1] = sourceColors32[vertexIndex + 1];
+                destinationColors32[vertexIndex + 2] = sourceColors32[vertexIndex + 2];
+                destinationColors32[vertexIndex + 3] = sourceColors32[vertexIndex + 3];
+            }
+
+            // Push changes into meshes 
+            for (int i = 0; i < textInfo.meshInfo.Length; i++)
+            {
+                //scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+                //textInfo.meshInfo[i].SortGeometry(scaleSortingOrder);
+
+                // Updated modified vertex attributes
+                textInfo.meshInfo[i].mesh.vertices = textInfo.meshInfo[i].vertices;
+                // THIS IS WHERE THE Vector4[] IS CONVERTED TO Vector2[] FOR Mesh.uv
+                //textInfo.meshInfo[i].mesh.uv = textInfo.meshInfo[i].uvs0.Select(v4 => (Vector2)v4).ToArray();
+                textInfo.meshInfo[i].mesh.SetUVs(0, new List<Vector4>(textInfo.meshInfo[i].uvs0));
+
+                textInfo.meshInfo[i].mesh.colors32 = textInfo.meshInfo[i].colors32;
+                _TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+            }
+
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+}

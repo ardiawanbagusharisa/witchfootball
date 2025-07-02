@@ -1,0 +1,58 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+
+public class TMPFXColorChanger : MonoBehaviour
+{
+    private TMP_Text _TextComponent;
+
+    void Awake() {
+        _TextComponent = GetComponent<TMP_Text>();
+    }
+    void Start(){
+        StartCoroutine(AnimateVertexColors());
+    }
+    // Animate vertex colors of TMP Text
+    IEnumerator AnimateVertexColors(){
+        // Force the text to update so we can have geometry to modify from the beginning. 
+        _TextComponent.ForceMeshUpdate();
+        TMP_TextInfo textInfo = _TextComponent.textInfo;
+        int currentCharacter = 0;
+        Color32[] newVertexColors;
+        Color32 c0 = _TextComponent.color;
+
+        while(true) {
+            int characterCount = textInfo.characterCount;
+            // If no character found then just yield and wait for some text to be added.
+            if(characterCount == 0){
+                yield return new WaitForSeconds(0.25f);
+                continue;
+            }
+            // Get the index of the material used by the current character. 
+            int materialIndex = textInfo.characterInfo[currentCharacter].materialReferenceIndex;
+            // Get the vertex colors of the mesh used by this text element (character or sprite).
+            newVertexColors = textInfo.meshInfo[materialIndex].colors32;
+            // Get the index of the first vertex used by this text element. 
+            int vertexIndex = textInfo.characterInfo[currentCharacter].vertexIndex;
+            // Only change the vertex color if the text element is visible. 
+            if(textInfo.characterInfo[currentCharacter].isVisible){
+                // Colors
+                c0 = new Color32((byte)Random.Range(0, 255), (byte)Random.Range(0, 255), (byte) Random.Range(0, 255), 255);
+                Color32 c1 = new Color32(255,255,255,255);
+                newVertexColors[vertexIndex + 0] = c0;
+                newVertexColors[vertexIndex + 1] = c0;
+                newVertexColors[vertexIndex + 2] = c0;
+                newVertexColors[vertexIndex + 3] = c0;
+                // Pushes (all) updated vertex data to the appropriate meshes when using either the mesh renderer or canvas renderer.Ver 
+                _TextComponent.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
+
+                // This last process could be done to only update the vertex data that has changed as opposed to all of the vertex data but it would require
+                // extra steps and knowing what type of renderer instead.  
+            }
+            currentCharacter = (currentCharacter + 1) % characterCount;
+            yield return new WaitForSeconds (0.05f);
+        }
+
+    }
+}

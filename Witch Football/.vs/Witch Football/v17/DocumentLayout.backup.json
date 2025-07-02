@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\skyboxrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skyboxrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\assets\\scripts\\witchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\witchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\witch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\witch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\tmpfxautotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tmpfxautotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\pinup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pinup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|d:\\bagus\\workspace\\unity\\past portfolios\\unity games\\witch football\\witch-football\\witch football\\assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5DAE5A-B7B4-7640-880E-B72722D33597}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SkyboxRotator.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\SkyboxRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SkyboxRotator.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\SkyboxRotator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SkyboxRotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T07:37:43.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Match.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Match.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Match.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Match.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Match.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAADgv+QAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T07:35:06.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tile.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Tile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tile.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAASwPoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:53:40.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:40:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TMPFXAutoType.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\TMPFXAutoType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TMPFXAutoType.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\TMPFXAutoType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TMPFXAutoType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:25:33.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PinUp.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\PinUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PinUp.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\PinUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PinUp.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAASwFwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:24:51.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Team.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Team.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Team.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Team.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:20:18.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Goal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Goal.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Goal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T06:18:56.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Witch.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Witch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Witch.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\Witch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Witch.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAjwK0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T02:06:19.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WitchController.cs",
+              "DocumentMoniker": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\WitchController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WitchController.cs",
+              "ToolTip": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Assets\\Scripts\\WitchController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WitchController.cs",
+              "ViewState": "AgIAAGgBAAAAAAAAAADgv3YBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T03:43:53.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

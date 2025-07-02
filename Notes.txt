@@ -1,0 +1,5 @@
+move all movement physics to fixed update
+and input buttons still in update 
+add tackle collider (bigger than the original collider)  
+reduce guard 
+refine TMP 
