@@ -1,19 +1,19 @@
 {
   "context": {
-    "projectPath": "D:/Bagus/Workspace/Unity/Past Portfolios/Unity Games/Witch Football/Witch-Football/Witch Football/Packages",
-    "unityVersion": "6000.0.38f1"
+    "projectPath": "D:/Workspace/Unity/witchfootball/Witch Football/Packages",
+    "unityVersion": "6000.3.8f1"
   },
   "inputs": [
-    "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Packages\\manifest.json",
-    "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Packages\\packages-lock.json",
-    "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Packages\\manifest.json",
+    "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.2d.sprite@072d7bd355e5",
-      "fingerprint": "072d7bd355e55ee3ded20a6a52435a4f5fded0d8",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.2d.sprite@08e067ec1643",
+      "fingerprint": "08e067ec16439baf6179e7b573789fe56478f7e0",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -22,128 +22,128 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.2d.tilemap@578c7061e96d",
-      "fingerprint": "578c7061e96d989301b81e978e7d0a10f1a48e11",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.2d.tilemap@2394479dc113",
+      "fingerprint": "2394479dc113a2fb5870334479f2547950908691",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ads@4.4.2": {
+    "com.unity.ads@4.16.4": {
       "name": "com.unity.ads",
       "displayName": "Advertisement Legacy",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
-      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
-      "editorCompatibility": "2018.4.18f1",
-      "version": "4.4.2",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ads@e89225828059",
+      "fingerprint": "e8922582805922405e97351c15d313c7a56f561d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "4.16.4",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ai.navigation@2.0.5": {
+    "com.unity.ai.navigation@2.0.10": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ai.navigation@9f76b145f0a8",
-      "fingerprint": "9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c",
-      "editorCompatibility": "2023.2.0a18",
-      "version": "2.0.5",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ai.navigation@c33a115e9883",
+      "fingerprint": "c33a115e988396e6eb96aa3a58e9fa0a937d08d5",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.10",
       "source": "registry",
       "testable": false
     },
-    "com.unity.analytics@3.8.1": {
+    "com.unity.analytics@3.8.2": {
       "name": "com.unity.analytics",
       "displayName": "Analytics Library",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
-      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.analytics@c9d14a6bdec6",
+      "fingerprint": "c9d14a6bdec6bc414ff1cab77dd82647a9fa1334",
       "editorCompatibility": "2019.3.0a1",
-      "version": "3.8.1",
+      "version": "3.8.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.collab-proxy@2.6.0": {
+    "com.unity.collab-proxy@2.11.3": {
       "name": "com.unity.collab-proxy",
-      "displayName": "Version Control",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.collab-proxy@001b54a8988a",
-      "fingerprint": "001b54a8988a14785c8e209d6c788bb15f9e58cf",
+      "displayName": "Unity Version Control",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.collab-proxy@e566cd3e7623",
+      "fingerprint": "e566cd3e762373591f6828e86f2018eed8021356",
       "editorCompatibility": "2021.3.0f1",
-      "version": "2.6.0",
+      "version": "2.11.3",
       "source": "registry",
       "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ext.nunit@60ef35ffd3cd",
-      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
+      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.ide.rider@3.0.31": {
-      "name": "com.unity.ide.rider",
-      "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ide.rider@7921be93db40",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.ide.visualstudio@2.0.23": {
-      "name": "com.unity.ide.visualstudio",
-      "displayName": "Visual Studio Editor",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
-      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
-      "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.23",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.multiplayer.center@1.0.0": {
-      "name": "com.unity.multiplayer.center",
-      "displayName": "Multiplayer Center",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.multiplayer.center@f502d8ac613f",
-      "fingerprint": "f502d8ac613fa076192423e73892fbd89eb4049b",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.purchasing@4.12.2": {
+    "com.unity.ide.rider@3.0.39": {
+      "name": "com.unity.ide.rider",
+      "displayName": "JetBrains Rider Editor",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ide.rider@4504839d03f7",
+      "fingerprint": "4504839d03f7a5a4495357084a0ffd6e439892cf",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.39",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ide.visualstudio@2.0.26": {
+      "name": "com.unity.ide.visualstudio",
+      "displayName": "Visual Studio Editor",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+      "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.26",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.multiplayer.center@1.0.1": {
+      "name": "com.unity.multiplayer.center",
+      "displayName": "Multiplayer Center",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a",
+      "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.1",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.purchasing@4.14.2": {
       "name": "com.unity.purchasing",
       "displayName": "In App Purchasing",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
-      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.purchasing@039fd41c6e81",
+      "fingerprint": "039fd41c6e81616dbfb87051ec2b10ff2fc91b79",
       "editorCompatibility": "2020.3.0a1",
-      "version": "4.12.2",
+      "version": "4.14.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework@1.4.6": {
+    "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.test-framework@5ac417e07314",
-      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
-      "editorCompatibility": "2019.4.1f1",
-      "version": "1.4.6",
-      "source": "registry",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d",
+      "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
+      "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.10": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6",
+      "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.10",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
-      "displayName": "Unity UI",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.ugui@03407c6d8751",
-      "fingerprint": "03407c6d875144b0a8ffdc0af3e0d5cccfa5a4ae",
+      "displayName": "uGUI",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc",
+      "fingerprint": "bb329a87fcdc5d55e815f3d804764d676674047e",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -152,7 +152,15 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.adaptiveperformance@1.0.0": {
+      "name": "com.unity.modules.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -160,7 +168,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -168,7 +176,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -176,7 +184,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -184,7 +192,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -192,7 +200,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -200,7 +208,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -208,7 +216,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -216,7 +224,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -224,7 +232,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -232,7 +240,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -240,7 +248,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -248,7 +256,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -256,7 +264,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -264,7 +272,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -272,7 +280,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -280,7 +288,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -288,7 +296,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -296,7 +304,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -304,7 +312,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -312,7 +320,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -320,7 +328,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -328,7 +336,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -336,7 +344,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -344,7 +352,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -352,7 +360,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -360,7 +368,15 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vectorgraphics@1.0.0": {
+      "name": "com.unity.modules.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -368,7 +384,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -376,7 +392,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -384,7 +400,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -392,7 +408,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -400,7 +416,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -408,7 +424,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -416,38 +432,38 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "D:\\Installed Software\\Unity\\6000.0.38f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.services.core@1.14.0": {
+    "com.unity.services.core@1.16.0": {
       "name": "com.unity.services.core",
       "displayName": "Services Core",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.services.core@9e81a5e38245",
-      "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.0",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.services.core@8ba50f624741",
+      "fingerprint": "8ba50f62474188022a50a78f721a5d30dfba0c3e",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.16.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.services.analytics@6.0.1": {
+    "com.unity.services.analytics@6.2.0": {
       "name": "com.unity.services.analytics",
       "displayName": "Analytics",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.services.analytics@f7e249983920",
-      "fingerprint": "f7e249983920dd67eba8952b09e37a6fe4582dd0",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "6.0.1",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.services.analytics@b6335889ba61",
+      "fingerprint": "b6335889ba612cb6b1017ce6c083f8b9678f8e9a",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "6.2.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.nuget.newtonsoft-json@3.2.1": {
+    "com.unity.nuget.newtonsoft-json@3.2.2": {
       "name": "com.unity.nuget.newtonsoft-json",
       "displayName": "Newtonsoft Json",
-      "resolvedPath": "D:\\Bagus\\Workspace\\Unity\\Past Portfolios\\Unity Games\\Witch Football\\Witch-Football\\Witch Football\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
-      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "resolvedPath": "D:\\Workspace\\Unity\\witchfootball\\Witch Football\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@4dfd81071c64",
+      "fingerprint": "4dfd81071c6475bb9c114f920bfb4e3fc5e28c6a",
       "editorCompatibility": "2018.4.0a1",
-      "version": "3.2.1",
+      "version": "3.2.2",
       "source": "registry",
       "testable": false
     }
